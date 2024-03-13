@@ -8,7 +8,12 @@ class SingleBookClass extends Component {
 
   render() {
     return (
-      <Card style={{ width: "18rem" }}>
+      <Card
+        style={{ width: "18rem" }}
+        onClick={() => {
+          this.setState({ selected: true });
+        }}
+      >
         <Card.Img variant="top" src={this.props.book.img} />
         <Card.Body>
           <Card.Title>{this.props.book.title} </Card.Title>
