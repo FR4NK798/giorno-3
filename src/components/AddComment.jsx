@@ -2,7 +2,17 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Component } from "react";
 
+const commentUser={
+        comment
+}
+
 class AddComponent extends Component {
+
+
+
+    state={
+        comment: 
+    }
   render() {
     return (
       <Form>
